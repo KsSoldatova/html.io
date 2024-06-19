@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(67, 82, 78);
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.header {
+    background-color: aliceblue;
+    padding-left: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    justify-content: right;
+    margin-right:35px;
+}
+article {
+    /* margin:5px; */
+    background-color: rgb(222, 210, 190);
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3 {
+    padding-left:40px;
+}
+.container {
+    background-color:aliceblue;   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+    padding:15px;
+    border-radius: 12px;
+    margin:5px;
+}
+.SEE {
+    padding-left:87px;
+    width:200px;
+    height:250px; 
+}
+.GOT {
+    width:200px;
+    height:250px;
+}
+.TL {
+    padding-left:63px;
+    width:200px;
+    height:250px; 
+}
+.BD {
+    padding-left:10px;
+    width:200px;
+    height:250px;  
+}
+.HK {
+    padding-left:20px;
+    width:200px;
+    height:250px;  
+}
+
+
+.film {
+    width: 600px;
+}
+.spisok {
+    width:300px;
+}
+
+.date {
+    margin:15px;
+}
+footer {
+    background-color: aliceblue;
+    border-radius: 12px;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #53432d; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+a:visited {
+    color: #3b2727; /* Цвет посещённой ссылки */
+   } 
+a:hover {
+    color: #c5936f; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+   }
+.telegram {
+    margin:15px;
+    width: 20px;
+    height: 20px;
+}
+.yfi {
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.container-2 {
+    background-color:aliceblue;
+    border-radius: 5px;
+    gap: 20px;
+    padding:15px;
+    border-color: rgb(67, 82, 78);
+    border-style:initial;
+    margin:5px;
+}
+.music {
+    width:400px;
+    height:400px;
+}
+.new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.audio {
+    width:400px;
+    height:150px;
+}
+
